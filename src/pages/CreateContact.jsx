@@ -10,7 +10,7 @@ const CreateContact = () => {
 
     const sendData = async () => {
         try {
-            const response = await fetch('http://localhost:5000/users', {
+            const response = await fetch('https://jsnserver-1.onrender.com/users', {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json;charset=UTF-8'
