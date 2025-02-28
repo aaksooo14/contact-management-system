@@ -10,7 +10,7 @@ const Hero = () => {
     const [loading, setLoading] = useState(true)
     const fetchContact = async () => {
         try {
-            const response = await fetch('https://jsnserver-1.onrender.com/users')
+            const response = await fetch('https://cmsserver-urhp.onrender.com/users')
             const data = await response.json()
             setEmployee(data)
             setLoading(false)
@@ -22,6 +22,7 @@ const Hero = () => {
     useEffect(() => {
         fetchContact()
     }, [])
+
 
 
 
