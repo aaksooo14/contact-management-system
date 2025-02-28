@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "photoUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+      "mobile": "+1 987-654-3210",
+      "email": "johndoe@example.com",
+      "description": "Senior Developer with expertise in React and Node.js.",
+      "group": "colleague"
+    },
+    {
+      "id": "2",
+      "name": "Emily Smith",
+      "photoUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+      "mobile": "+1 456-789-0123",
+      "email": "emilysmith@example.com",
+      "description": "Graphic designer passionate about UI/UX.",
+      "group": "friend"
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "photoUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+      "mobile": "+1 321-654-9870",
+      "email": "michaeljohnson@example.com",
+      "description": "HR manager with a decade of experience.",
+      "group": "colleague"
+    },
+    {
+      "id": "4",
+      "name": "Sophia Williams",
+      "photoUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+      "mobile": "+1 789-012-3456",
+      "email": "sophiawilliams@example.com",
+      "description": "A caring and supportive family member.",
+      "group": "family"
+    },
+    {
+      "id": "5",
+      "name": "David Brown",
+      "photoUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+      "mobile": "+1 234-567-8901",
+      "email": "davidbrown@example.com",
+      "description": "Tech enthusiast and a reliable friend.",
+      "group": "friend"
+    },
+    {
+      "id": "9d76",
+      "name": "Akash Manohar Sahastrabuddhe",
+      "photoUrl": "India",
+      "mobile": "9022808398",
+      "email": "shaa6191@gmail.com",
+      "description": "dd",
+      "group": "Family"
+    }
+  ]
+}
