@@ -1,22 +1,29 @@
-import React from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import { BrowserRouter, Route, Routes } from 'react-router'
-import CreateContact from './pages/CreateContact'
+import React, { Suspense, lazy } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Hero from './components/Hero';
+
+// Lazy Loading Components
+const CreateContact = lazy(() => import('./pages/CreateContact'));
+const ViewContact = lazy(() => import('./components/ViewContact'));
+const EditContact = lazy(() => import('./components/EditContact'));
 
 const App = () => {
   return (
+
     <>
-      <BrowserRouter>
-        <Header />
+      <Header />
+      <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path='/' element={<Hero />} />
           <Route path='/create-contact' element={<CreateContact />} />
+          <Route path='/view-contact/:id' element={<ViewContact />} />
+          <Route path='/edit-contact/:id' element={<EditContact />} />
         </Routes>
-      </BrowserRouter>
-
+      </Suspense>
     </>
-  )
-}
 
-export default App
+  );
+};
+
+export default App;
