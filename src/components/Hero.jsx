@@ -44,8 +44,8 @@ const Hero = () => {
                 <div className="hero pt-20 bg-amber-100">
                     <div className="hero-content text-center">
                         <div className="max-w-md">
-                            <h1 className="text-5xl font-bold">CMS</h1>
-                            <p className="py-6">Empower. Manage. Scale. – Your All-in-One CMS Solution</p>
+                            <h1 className="text-5xl font-bold text-black">CMS</h1>
+                            <p className="py-6 text-black">Empower. Manage. Scale. – Your All-in-One CMS Solution</p>
                             <Link to="/create-contact">
                                 <button className="btn btn-primary p-5">
                                     Create Contact <span className="text-2xl"><MdOutlineContactPhone /></span>

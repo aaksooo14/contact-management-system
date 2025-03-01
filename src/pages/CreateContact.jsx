@@ -65,7 +65,7 @@ const CreateContact = () => {
         <>
             <div className="bg-amber-50 h-[100vh] pt-20">
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center pt-10 space-y-5 items-center">
-                    <h1 className="font-bold text-2xl">Create Contact</h1>
+                    <h1 className="font-bold text-2xl text-black">Create Contact</h1>
                     <input required value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" className="input" />
                     <input value={photoUrl} onChange={(e) => setPhotoUrl(e.target.value)} type="text" placeholder="Photo URL (optional)" className="input" />
                     <input required value={mobile} onChange={(e) => setMobile(e.target.value)} type="text" placeholder="Mobile Number" className="input" />

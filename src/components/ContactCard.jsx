@@ -48,7 +48,7 @@ const ContactCard = ({ list }) => {
                 {/* Contact Details */}
                 <ul className='md:space-y-2 space-y-2'>
                     {[list.name, list.mobile, list.email].map((item, index) => (
-                        <li key={index} className='border rounded-sm p-2  md:w-[20vw]'>{item}</li>
+                        <li key={index} className='border-black text-black b rounded-sm p-2  md:w-[20vw]'>{item}</li>
                     ))}
                 </ul>
 

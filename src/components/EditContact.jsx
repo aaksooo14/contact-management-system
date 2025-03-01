@@ -84,7 +84,7 @@ const EditContact = () => {
         <>
             <div className='bg-amber-50 h-[100vh]'>
                 <form onSubmit={handleSubmit} className='flex flex-col justify-center pt-10 space-y-5 items-center'>
-                    <h1 className='font-bold text-2xl'>Update Contact </h1>
+                    <h1 className='font-bold text-2xl text-black'>Update Contact </h1>
                     <input
                         required
                         value={name}
